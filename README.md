@@ -1,13 +1,13 @@
-<img src="assets/logo.png" width="12%" align="left">
+<img src="assets/logo.png" width="12.5%" align="left">
 
 # DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes
 
 ![project](https://img.shields.io/badge/Project-%F0%9F%94%97-red)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=dynamic-city.DynamicCity)
 
-|![teaser](assets/teaser.webp)|
-|:-:|
-|DynamicCity is a cutting-edge 4D LiDAR generation framework designed to capture the dynamic nature of real-world driving environments. It leverages a VAE model with a Projection Module and Expansion & Squeeze Strategy to efficiently represent and reconstruct large-scale LiDAR scenes, achieving up to 12.56 mIoU gain in fitting quality and 2.06x speedup in training. Additionally, a DiT-based diffusion model with a Padded Rollout Operation enables versatile applications like trajectory-driven, inpainting, and layout-conditioned generation. Extensive tests on CarlaSC and Waymo datasets show that DynamicCity significantly surpasses existing 4D LiDAR methods.|
+||<img src="assets/teaser.webp" alt="Teaser" width="85%">||
+|:-:|:-:|:-:|
+||DynamicCity is a cutting-edge 4D LiDAR generation framework designed to capture the dynamic nature of real-world driving environments. It leverages a VAE model with a Projection Module and Expansion & Squeeze Strategy to efficiently represent and reconstruct large-scale LiDAR scenes, achieving up to 12.56 mIoU gain in fitting quality and 2.06x speedup in training. Additionally, a DiT-based diffusion model with a Padded Rollout Operation enables versatile applications like trajectory-driven, inpainting, and layout-conditioned generation. Extensive tests on CarlaSC and Waymo datasets show that DynamicCity significantly surpasses existing 4D LiDAR methods.||
 
 
 ## Updates
