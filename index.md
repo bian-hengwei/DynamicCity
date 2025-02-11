@@ -10,7 +10,7 @@ layout: default
   </h1>
 </div>
 
-<p class="venue">ICLR 2025</p>
+<p class="venue">ICLR 2025 Spotlight</p>
 
 {% include_relative authors.md %}
 {% include_relative links.md %}
