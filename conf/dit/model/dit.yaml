@@ -1,0 +1,8 @@
+model: 'DiT-DC/2'
+x_attn: false
+hex_cond: false
+layout_cond: false
+traj_cond: false
+cmd_cond: false
+learning_rate: 1e-4
+weight_decay: 0

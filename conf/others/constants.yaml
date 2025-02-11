@@ -1,0 +1,13 @@
+CKPT_ROOT: 'ckpts'
+OUTPUT_ROOT: 'out'
+
+ROLLOUT_NAME: 'rollout'
+VOXEL_NAME: 'voxel'
+LAYOUT_NAME: 'layout'
+GEN_NAME: 'gen'
+
+CKPT_NAME_RULE: '{}_mIoU_{:.2f}.ckpt'
+CKPT_NAME_LAST: 'last.ckpt'
+CONF_NAME: 'conf.yaml'
+
+EPSILON: 1e-10

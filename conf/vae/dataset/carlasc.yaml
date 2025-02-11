@@ -1,0 +1,83 @@
+batch_size: 1
+valid_batch_size: 1
+num_workers: 16
+
+skip: 0
+augment: 0
+shuffle_dataset: False
+
+dataset: 'carlasc'
+data_path: 'carlasc/Cartesian'
+scene_folder: 'cartesian/evaluation'
+split:
+  train: 'Train'
+  valid: 'Test'
+data_pattern: '*.label'
+
+sequence_length: 16
+spatial_size: [ 128, 128, 8 ]
+num_classes: 12
+
+semantic_map:
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 6
+  8: 8
+  9: 9
+  10: 10
+  11: 2
+  12: 5
+  13: 3
+  14: 7
+  15: 3
+  16: 3
+  17: 2
+  18: 5
+  19: 3
+  20: 3
+  21: 3
+  22: 7
+
+semantic_names:
+  0: Free         # Free
+  1: Building     # Building
+  2: Barrier      # Barrier, Wall, Guardrail
+  3: Other        # Other, Sky, Bridge, Rail track, Static, Dynamic, Water
+  4: Pedestrian   # Pedestrian
+  5: Pole         # Pole, Traffic sign, Traffic light
+  6: Road         # Road, Roadlines
+  7: Ground       # Ground, Terrain
+  8: Sidewalk     # Sidewalk
+  9: Vegetation   # Vegetation
+  10: Vehicle     # Vehicle
+  11: Bicycle     #
+
+semantic_frequency:
+  0: 3763643297   # Free
+  1: 39644538     # Building
+  2: 8417042      # Barrier
+  3: 362221       # Other
+  4: 546581       # Pedestrian
+  5: 2265328      # Pole
+  6: 3319457      # Roadline
+  7: 184640959    # Road
+  8: 105036782    # Sidewalk
+  9: 20811569     # Vegetation
+  10: 9942710     # Vehicles
+  11: 18401902    # Wall
+  12: 96415       # Traffic Sign
+  13: 0           # Sky
+  14: 6995101     # Ground
+  15: 538555      # Bridge
+  16: 4313        # Railtrack
+  17: 8965598     # GuardRail
+  18: 66443       # Traffic Light
+  19: 3009867     # Static
+  20: 2982851     # Dynamic
+  21: 234650      # Water
+  22: 66806621    # Terrain

@@ -1,0 +1,8 @@
+defaults:
+  - dataset: carlasc
+  - trainer: train
+  - model: dit
+  - _self_
+
+name: DYNAMIC_CITY_DIT
+vae_name: DYNAMIC_CITY_VAE

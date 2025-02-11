@@ -1,0 +1,55 @@
+# TRAINING
+grad_max_norm: 0
+grad_clip_step: 0
+
+optimizer_type: 'adam'
+learning_rate: 1e-3
+weight_decay: 0
+
+scheduler_type: 'multisteplr'
+lr_scheduler_steps: [ 50, 60, 70, 80, 90 ]
+lr_scheduler_decay: 0.7
+
+ce_class_weight: True
+loss_weights:
+  ce: 1.
+  lovasz: 1.
+  kl: 0.0015
+
+# VALIDATION
+use_valid_mask: True
+
+# MODEL
+vae: True
+latent_channels: 16
+query_channels: 64
+interpolate_t_skip: 0
+
+# ENCODER CONV
+encoder_type: 'tr'
+separate_t_encoder: True
+one_hot_time: True
+down_x: 1
+down_y: 1
+down_z: 1
+hex_down_t: 1
+hex_down_x: 0
+hex_down_y: 0
+hex_down_z: 0
+
+# ENCODER TFM
+separate_t_reducer: True
+transformer_depth: 2
+transformer_heads: 2
+transformer_dim_head: 16
+transformer_dim_mlp: 32
+dropout: 0.1
+
+# DECODER
+decoder_type: 'conv'
+hadamard: True
+mlp_hidden_channels: 256
+mlp_hidden_layers: 4
+pe_freq: 3
+conv_hidden_low_res: 128
+conv_hidden_high_res: 32

@@ -1,0 +1,6 @@
+batch_size: 16
+valid_batch_size: 16
+num_workers: 16
+turn_repeat_factor: 1
+angle_thr_mul: 0.0025
+forward_thr_mul: 0.03

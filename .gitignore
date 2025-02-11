@@ -1,0 +1,14 @@
+**/__pycache__/
+carlasc
+occ3dn
+occ3dw
+.DS_Store
+ckpts/
+wandb/
+wandb_log/
+.idea/
+out
+rollout
+scripts
+tools
+trajectory

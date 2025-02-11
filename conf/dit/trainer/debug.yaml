@@ -1,0 +1,14 @@
+seed: 0
+deterministic: False
+tf32: True
+
+amp: True
+num_epochs: 5
+
+log_frequency: 1
+ckpt_frequency: 10000
+sync_wandb: False
+wandb_project: DCDEBUG
+
+auto_resume: False
+resume_ckpt: null

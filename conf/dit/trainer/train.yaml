@@ -1,0 +1,14 @@
+seed: 0
+deterministic: False
+tf32: True
+
+amp: True
+num_epochs: 1200
+
+log_frequency: 100
+ckpt_frequency: 10000
+sync_wandb: True
+wandb_project: DynamicCity
+
+auto_resume: False
+resume_ckpt: null

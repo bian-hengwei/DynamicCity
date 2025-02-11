@@ -1,0 +1,18 @@
+seed: 0
+deterministic: False
+tf32: True
+
+amp: True
+num_epochs: 100
+
+log_frequency: 100
+log_train: True
+log_class: True
+log_frame: True
+sync_wandb: True
+wandb_project: DCDEBUG
+
+auto_resume: False
+resume_ckpt: null
+
+data_length: -1
