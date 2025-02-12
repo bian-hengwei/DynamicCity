@@ -1,6 +1,6 @@
 <img src="https://dynamic-city.github.io/assets/images/logo.png" width="12.5%" align="left">
 
-# DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes
+# DynamicCity: Large-Scale Occypancy Generation from Dynamic Scenes
 
 <p align="center">
   <a href="https://bianhengwei.com/" target="_blank">Hengwei Bian</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
@@ -39,8 +39,8 @@
 
 LiDAR scene generation has been developing rapidly recently. However, existing methods primarily focus on generating
 static and single-frame scenes, overlooking the inherently dynamic nature of real-world driving environments. In this
-work, we introduce **DynamicCity**, a novel 4D LiDAR generation framework capable of generating large-scale,
-high-quality LiDAR scenes that capture the temporal evolution of dynamic environments. DynamicCity mainly consists of
+work, we introduce **DynamicCity**, a novel 4D occupancy generation framework capable of generating large-scale, 
+high-quality dynamic LiDAR scenes with semantics. DynamicCity mainly consists of
 two key models: 1. A VAE model for learning HexPlane as the compact 4D representation. Instead of using naive averaging
 operations, DynamicCity employs a novel **Projection Module** to effectively compress 4D LiDAR features into six 2D
 feature maps for HexPlane construction, which significantly enhances HexPlane fitting quality (up to **12.56** mIoU
